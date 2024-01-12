@@ -1,0 +1,14 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.startButton{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}
