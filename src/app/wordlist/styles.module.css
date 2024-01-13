@@ -1,0 +1,37 @@
+.wrapper{
+
+    background:radial-gradient(circle at 100% 0%, #ff84ed 0, #e56fe5 25%, #be55d8 50%, #933ecc 75%, #6731c4 100%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container{
+    background-color: whitesmoke;
+    width: 30%;
+    height: 70%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+@media (max-width: 1365px) {
+    .container{
+        height: 80%;
+        width: 90%;
+    }
+}
+
+
+.title{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 25px;
+    font-weight: 500;
+}
