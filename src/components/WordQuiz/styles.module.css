@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.answerOptions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.word {
+    height: 35px;
+    width: 150px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.rightAnswer {
+    background-color: green;
+    color: white;
+}
+
+.wrongAnswer {
+    background-color: brown;
+    color: white;
+}
+
+.disabledOptions {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.navButton {
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}

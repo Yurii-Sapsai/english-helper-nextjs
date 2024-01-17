@@ -63,11 +63,101 @@
     font-weight: 700;
 }
 
-.styles_type__nWo19{
-    color: green;
+.styles_navButton__P63GJ{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/WordQuiz/styles.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__wQE3h {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
 }
 
-.styles_navButton__P63GJ{
+.styles_answerOptions__tPk_M {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.styles_word__UQD8G {
+    height: 35px;
+    width: 150px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.styles_rightAnswer__gqz5V {
+    background-color: green;
+    color: white;
+}
+
+.styles_wrongAnswer__DwA7q {
+    background-color: brown;
+    color: white;
+}
+
+.styles_disabledOptions__8cE_I {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.styles_navButton__e_qgz {
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/WordPuzzle/styles.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__Zx4Po{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.styles_printWord__9gvRn{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.styles_backSpaceIcon__q5irI{
+    cursor: pointer;
+}
+
+.styles_letterContainer__WRZL_{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.styles_letter__oZt_f{
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.styles_checkContainer__ljdUr{
+    text-transform: uppercase;
+    display: flex;
+    gap: 10px;
+}
+
+.styles_navButton__fhT50{
     width: 150px;
     height: 35px;
     cursor: pointer;

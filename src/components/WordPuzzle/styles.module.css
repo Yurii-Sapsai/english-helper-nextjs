@@ -1,0 +1,44 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.printWord{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.backSpaceIcon{
+    cursor: pointer;
+}
+
+.letterContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.letter{
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.checkContainer{
+    text-transform: uppercase;
+    display: flex;
+    gap: 10px;
+}
+
+.navButton{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}
