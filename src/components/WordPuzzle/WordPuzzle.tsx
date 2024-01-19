@@ -44,7 +44,7 @@ const WordPuzzle = ({ words, setWordPuzzle }: IWordPuzzleProps) => {
     };
 
     const checkingWord = () => {
-        if(printWord === words[wordIndex].word){
+        if (printWord === words[wordIndex].word) {
             setCheckWord('right')
 
         } else {
@@ -74,8 +74,8 @@ const WordPuzzle = ({ words, setWordPuzzle }: IWordPuzzleProps) => {
 
                     <div className={styles.checkContainer}>
                         {checkWord === '' && <button onClick={() => checkingWord()} disabled={printWord.length < words[wordIndex].word.length} className={styles.checkButton}>Check</button>}
-                        {checkWord === 'right' && <Image src={MarkIcon} alt='' className={styles.checkIcon} />}
-                        {checkWord === 'wrong' && <Image src={CrossIcon} alt='' className={styles.checkIcon}/>}
+                        <Image src={MarkIcon} style={checkWord === 'right' ? { display: 'block' } : { display: 'none' }} alt='' className={styles.checkIcon} />
+                        <Image src={CrossIcon} style={checkWord === 'wrong' ? { display: 'block' } : { display: 'none' }} alt='' className={styles.checkIcon} />
                         {checkWord && words[wordIndex].word}
                     </div>
 
