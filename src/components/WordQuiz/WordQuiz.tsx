@@ -16,6 +16,7 @@ const WordQuiz = ({ words, setWordQuiz }: IWordQuizProps) => {
 
     const [wordIndex, setWordIndex] = useState<number>(0);
     const [answerOptions, setAnswerOptions] = useState<Array<any>>([]);
+    const [showNavButton, setShowNavButton] = useState<boolean>(false);
 
     useEffect(() => {
         getAnswerOptions();
@@ -33,8 +34,13 @@ const WordQuiz = ({ words, setWordQuiz }: IWordQuizProps) => {
 
         for (let i = 0; i < 3; i++) {
 
-            const randomIndex = getRandomIndex(copyWordList.length);
-            const randomWord = copyWordList[randomIndex];
+            let randomIndex = getRandomIndex(copyWordList.length);
+            let randomWord = copyWordList[randomIndex];
+
+            if (randomWord === words[wordIndex]) {
+                randomIndex = getRandomIndex(copyWordList.length);
+                randomWord = copyWordList[randomIndex];
+            }
 
             randomWords.push(randomWord);
 
@@ -48,8 +54,6 @@ const WordQuiz = ({ words, setWordQuiz }: IWordQuizProps) => {
     }
 
     const answerChecking = (answer: any, word: any) => {
-        console.log('check 1', answer)
-        console.log('check 2', word)
 
         let getAnswer: HTMLElement | null = document.getElementById(answer.word);
         let getWord: HTMLElement | null = document.getElementById(word.word);
@@ -85,6 +89,8 @@ const WordQuiz = ({ words, setWordQuiz }: IWordQuizProps) => {
                 }
             }
         }
+
+        setShowNavButton(true);
     }
 
     const removeStyles = () => {
@@ -98,7 +104,7 @@ const WordQuiz = ({ words, setWordQuiz }: IWordQuizProps) => {
         }
     }
 
-    console.log(wordIndex, 'index quiz')
+
 
     return (
         <div className={styles.wrapper}>
@@ -113,7 +119,7 @@ const WordQuiz = ({ words, setWordQuiz }: IWordQuizProps) => {
                 }
             </div>
 
-            <button className={styles.navButton} onClick={() => [setWordIndex(wordIndex => wordIndex + 1), removeStyles()]}>Next</button>
+            <button className={styles.navButton} style={showNavButton ? { visibility: 'visible' } : { visibility: 'hidden' }} onClick={() => [setWordIndex(wordIndex => wordIndex + 1), setShowNavButton(false), removeStyles()]}>Next</button>
         </div>
     )
 }

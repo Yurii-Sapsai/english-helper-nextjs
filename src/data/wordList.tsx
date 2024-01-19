@@ -1036,7 +1036,7 @@ export const wordList = [
     },
     {
         word: 'What is on?',
-        translation: 'Що показують,',
+        translation: 'Що показують?',
         lvl: 'Intermediate 2'
     },
     {
@@ -1057,6 +1057,96 @@ export const wordList = [
     {
         word: 'masterpiece',
         translation: 'шедевр',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'war',
+        translation: 'війна',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'civil war',
+        translation: 'громадянська війна',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'fight',
+        translation: 'воювати / битися / боротися',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'pollute',
+        translation: 'забруднювати',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'pollution',
+        translation: 'забруднення',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'global warming',
+        translation: 'глобальне потепління',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'survive',
+        translation: 'виживати',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'soldiers',
+        translation: 'солдати',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'civillians',
+        translation: 'цивільне населення',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'natural resources',
+        translation: 'природні ресурси',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'protected animals',
+        translation: 'захищати тварин',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'recycle waste',
+        translation: 'перероблювати відходи',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'destroy',
+        translation: 'руйнувати / знищувати',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'damage',
+        translation: 'пошкоджувати',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'terrorism',
+        translation: 'тероризм',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'plant bombs',
+        translation: 'закладати бомби',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'hijack planes',
+        translation: 'захоплювати літаки',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'close to',
+        translation: 'близько до',
         lvl: 'Intermediate 2'
     },
 ]

@@ -4,6 +4,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 30px;
+    width: 90%;
 }
 
 .printWord{
@@ -34,7 +35,18 @@
 .checkContainer{
     text-transform: uppercase;
     display: flex;
+    align-items: center;
     gap: 10px;
+}
+
+.checkButton{
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+.checkIcon{
+    height: 30px;
+    width: auto;
 }
 
 .navButton{

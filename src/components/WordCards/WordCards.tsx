@@ -19,7 +19,6 @@ const WordCards = ({ words, setWordCards }: IWordCardsProps) => {
         wordIndex === words.length && setWordCards('finished');
     }, [wordIndex]);
 
-    
     return (
         <div className={styles.wrapper}>
 

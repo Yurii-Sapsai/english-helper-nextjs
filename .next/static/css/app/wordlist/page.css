@@ -124,6 +124,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 30px;
+    width: 90%;
 }
 
 .styles_printWord__9gvRn{
@@ -154,10 +155,37 @@
 .styles_checkContainer__ljdUr{
     text-transform: uppercase;
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
+.styles_checkButton__zAEMW{
+    cursor: pointer;
+    padding: 5px 15px;
+}
+
+.styles_checkIcon__084SU{
+    height: 30px;
+    width: auto;
+}
+
 .styles_navButton__fhT50{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/WordListCompleted/styles.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+.styles_wrapper__Qa1qF{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.styles_buttonRestart__ke6f6{
     width: 150px;
     height: 35px;
     cursor: pointer;

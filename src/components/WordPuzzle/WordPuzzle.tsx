@@ -2,6 +2,8 @@ import { Dispatch, SetStateAction, useEffect, useState } from 'react';
 import styles from './styles.module.css';
 import Image from 'next/image';
 import BackspaceIcon from '@/assets/backspace.webp';
+import MarkIcon from '@/assets/mark.webp';
+import CrossIcon from '@/assets/cross.webp';
 
 
 
@@ -17,7 +19,7 @@ const WordPuzzle = ({ words, setWordPuzzle }: IWordPuzzleProps) => {
     const [wordIndex, setWordIndex] = useState<number>(0);
     const [wordInArray, setWordInArray] = useState<Array<any>>([]);
     const [printWord, setPrintWord] = useState<string>('');
-    const [checkWord, setCheckWord] = useState<boolean>(false);
+    const [checkWord, setCheckWord] = useState<string>('');
 
 
     useEffect(() => {
@@ -27,7 +29,7 @@ const WordPuzzle = ({ words, setWordPuzzle }: IWordPuzzleProps) => {
     }, [wordIndex]);
 
 
-    const getRandomNumber = () => Math.random() - 0.7;
+    const getRandomNumber = () => Math.random() - 0.5;
 
     const createPrintWord = (letter: string) => {
         setPrintWord(printWord + letter)
@@ -40,6 +42,15 @@ const WordPuzzle = ({ words, setWordPuzzle }: IWordPuzzleProps) => {
             setPrintWord(word)
         }
     };
+
+    const checkingWord = () => {
+        if(printWord === words[wordIndex].word){
+            setCheckWord('right')
+
+        } else {
+            setCheckWord('wrong')
+        }
+    }
 
     return (
         <>
@@ -56,17 +67,19 @@ const WordPuzzle = ({ words, setWordPuzzle }: IWordPuzzleProps) => {
 
                     <div className={styles.letterContainer}>
                         {wordInArray && wordInArray.map((letter: string, index: number) => (
-                            <button key={index} className={styles.letter} onClick={() => createPrintWord(letter)}> {letter}</button>
+                            <button key={index} className={styles.letter} onClick={() => createPrintWord(letter)} disabled={checkWord ? true : false}> {letter}</button>
                         ))
                         }
                     </div>
 
                     <div className={styles.checkContainer}>
-                        <button onClick={() => setCheckWord(true)} disabled={printWord.length < words[wordIndex].word.length}>Check</button>
+                        {checkWord === '' && <button onClick={() => checkingWord()} disabled={printWord.length < words[wordIndex].word.length} className={styles.checkButton}>Check</button>}
+                        {checkWord === 'right' && <Image src={MarkIcon} alt='' className={styles.checkIcon} />}
+                        {checkWord === 'wrong' && <Image src={CrossIcon} alt='' className={styles.checkIcon}/>}
                         {checkWord && words[wordIndex].word}
                     </div>
 
-                    <button className={styles.navButton} disabled={!checkWord} onClick={() => [setWordIndex(wordIndex => wordIndex + 1), setPrintWord(''), setCheckWord(false)]}>Next</button>
+                    <button className={styles.navButton} disabled={!checkWord} onClick={() => [setWordIndex(wordIndex => wordIndex + 1), setPrintWord(''), setCheckWord('')]}>Next</button>
                 </div>
             }
         </>

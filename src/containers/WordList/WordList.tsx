@@ -5,7 +5,7 @@ import { wordList } from '@/data/wordList';
 import WordCards from '@/components/WordCards/WordCards';
 import WordQuiz from '@/components/WordQuiz/WordQuiz';
 import WordPuzzle from '@/components/WordPuzzle/WordPuzzle';
-
+import WordListCompleted from '@/components/WordListCompleted/WordListCompleted';
 
 
 
@@ -16,6 +16,7 @@ const WordList = () => {
   const [wordCards, setWordCards] = useState<string>('');
   const [wordQuiz, setWordQuiz] = useState<string>('');
   const [wordPuzzle, setWordPuzzle] = useState<string>('');
+  const [wordListCompleted, setWordListCompleted] = useState<boolean>(false)
 
   useEffect(() => {
     getWords();
@@ -24,6 +25,7 @@ const WordList = () => {
   useEffect(() => {
     if(wordCards === 'finished' && wordQuiz === '') setWordQuiz('started');
     if(wordQuiz === 'finished' && wordPuzzle === '') setWordPuzzle('started');
+    if(wordPuzzle === 'finished') setWordListCompleted(true);
   }, [wordCards, wordQuiz, wordPuzzle]);
 
   
@@ -38,8 +40,7 @@ const WordList = () => {
 
     for (let i = 0; i < 10; i++) {
 
-      const randomIndex = getRandomIndex(wordList.length);
-      console.log(randomIndex, 'randomIndex', i)
+      const randomIndex = getRandomIndex(copyWordList.length);
       const randomWord = copyWordList[randomIndex];
 
       randomWords.push(randomWord);
@@ -56,6 +57,7 @@ const WordList = () => {
       {wordCards === 'started' && <WordCards words={words} setWordCards={setWordCards} />}
       {wordQuiz === 'started' && <WordQuiz words={words} setWordQuiz={setWordQuiz} />}
       {wordPuzzle === 'started' && <WordPuzzle words={words} setWordPuzzle={setWordPuzzle} />}
+      {wordListCompleted === true && <WordListCompleted />}
 
       {!wordCards && <button className={styles.startButton} onClick={() => setWordCards('started')}>Start</button>}
     </div>
