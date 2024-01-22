@@ -101,7 +101,7 @@ export const wordList = [
     },
     {
         word: 'passer by',
-        translation: 'перехожий',       
+        translation: 'перехожий',
         lvl: 'Intermediate 2'
     },
     {
@@ -970,7 +970,7 @@ export const wordList = [
         lvl: 'Intermediate 2'
     },
     {
-        word: 'pointing',
+        word: 'painting',
         translation: 'картина',
         lvl: 'Intermediate 2'
     },
@@ -980,7 +980,7 @@ export const wordList = [
         lvl: 'Intermediate 2'
     },
     {
-        word: 'pointer',
+        word: 'painter',
         translation: 'художник',
         lvl: 'Intermediate 2'
     },
@@ -1147,6 +1147,91 @@ export const wordList = [
     {
         word: 'close to',
         translation: 'близько до',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'hostage',
+        translation: 'заручник',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'release the hostages',
+        translation: 'звільнити заручників',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'agree to demands',
+        translation: 'погоджуватись на вимоги',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'epidemic',
+        translation: 'епідемія',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'spread',
+        translation: 'поширювати',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'casualty',
+        translation: 'потерпілий',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'victim',
+        translation: 'жертва',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'survivors',
+        translation: 'виживші',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'live through',
+        translation: 'пережити',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'disaster',
+        translation: 'катастрофа',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'refugee',
+        translation: 'біженець',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'wounded',
+        translation: 'поранений',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'famine',
+        translation: 'голод',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'flood',
+        translation: 'повінь',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'drought',
+        translation: 'засуха',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'earthquake',
+        translation: 'землетрус',
+        lvl: 'Intermediate 2'
+    },
+    {
+        word: 'volcanic eruption',
+        translation: 'виверження вулкану',
         lvl: 'Intermediate 2'
     },
 ]

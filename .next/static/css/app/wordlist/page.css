@@ -208,4 +208,13 @@
     width: 150px;
     height: 35px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.styles_airplaneIcon___y3bZ{
+    height: 23px;
+    width: auto;
 }

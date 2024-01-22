@@ -13,4 +13,13 @@
     width: 150px;
     height: 35px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.airplaneIcon{
+    height: 23px;
+    width: auto;
 }

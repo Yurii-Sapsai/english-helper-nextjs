@@ -6,6 +6,8 @@ import WordCards from '@/components/WordCards/WordCards';
 import WordQuiz from '@/components/WordQuiz/WordQuiz';
 import WordPuzzle from '@/components/WordPuzzle/WordPuzzle';
 import WordListCompleted from '@/components/WordListCompleted/WordListCompleted';
+import Image from 'next/image';
+import AirplaneIcon from '@/assets/airplane.webp';
 
 
 
@@ -59,7 +61,7 @@ const WordList = () => {
       {wordPuzzle === 'started' && <WordPuzzle words={words} setWordPuzzle={setWordPuzzle} />}
       {wordListCompleted === true && <WordListCompleted />}
 
-      {!wordCards && <button className={styles.startButton} onClick={() => setWordCards('started')}>Start</button>}
+      {!wordCards && <button className={styles.startButton} onClick={() => setWordCards('started')}>START <Image src={AirplaneIcon} alt='' className={styles.airplaneIcon}/></button>}
     </div>
   )
 }
