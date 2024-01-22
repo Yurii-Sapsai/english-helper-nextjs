@@ -11,7 +11,7 @@ const WordListPage = () => {
         <div className={styles.wrapper}>
             <div className={styles.container}>
 
-                <h1 className={styles.title}>World List</h1>
+                <h1 className={styles.title}>Word List</h1>
 
                 <WordList />
             </div>
