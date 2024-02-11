@@ -1234,4 +1234,234 @@ export const wordList = [
         translation: 'виверження вулкану',
         lvl: 'Intermediate 2'
     },
+    {
+        word: 'decide on',
+        translation: 'визначатись з',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'stand a chance',
+        translation: 'мати шанс',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'evidence',
+        translation: 'доказ',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'prove',
+        translation: 'доводити',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'reason',
+        translation: 'причина',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'opinion',
+        translation: 'думка',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'refuse',
+        translation: 'відмовляти',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'excuse',
+        translation: 'виправдання',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'relief',
+        translation: 'полегшення',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'fortune',
+        translation: 'вдача',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'misfortune',
+        translation: 'невдача',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'look up',
+        translation: 'шукати інформацію',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'bring up',
+        translation: 'виховувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'turn up',
+        translation: 'збільшити потужнічть',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'speed up',
+        translation: 'прискорюватись',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'make up',
+        translation: 'вигадувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'give up',
+        translation: 'кидати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'end up',
+        translation: 'зрештою',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'throw up',
+        translation: 'нудить',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'grow up',
+        translation: 'рости',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'heat up',
+        translation: 'розігрівати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'I wanna',
+        translation: 'я хочу',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'I gonna',
+        translation: 'я збираюся',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'I gotta',
+        translation: 'я повинен',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'cut down on',
+        translation: 'зменшити вживання',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'slow down',
+        translation: 'зповільнюватись',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'fall down',
+        translation: 'провалити / завалити',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'calm down',
+        translation: 'заспокоювати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'mark down',
+        translation: 'записувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'break down',
+        translation: 'ламатись',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'let down',
+        translation: 'підвести / зрадити',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'put down',
+        translation: 'принижувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'turn down',
+        translation: 'зменшувати потіжність',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'kneel down',
+        translation: 'ставати на коліно',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'however',
+        translation: 'проте / однак',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'challenge',
+        translation: 'кидати виклик',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'reach',
+        translation: 'досягати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'achieve',
+        translation: 'досягати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'struggle',
+        translation: 'боротись',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'sort out',
+        translation: 'вирішувати / розбиратись з',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'suitable',
+        translation: 'підходящий',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'accomplish',
+        translation: 'завершувати успішно',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'set a target',
+        translation: 'встановити ціль',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'manage',
+        translation: 'керувати / управляти',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'opportunity',
+        translation: 'можливість',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'goal',
+        translation: '',
+        lvl: 'Upper-Intermediate'
+    }
 ]
