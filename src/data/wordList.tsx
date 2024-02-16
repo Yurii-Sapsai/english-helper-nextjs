@@ -1345,7 +1345,7 @@ export const wordList = [
         lvl: 'Upper-Intermediate'
     },
     {
-        word: 'I gonna',
+        word: 'I am gonna',
         translation: 'я збираюся',
         lvl: 'Upper-Intermediate'
     },
@@ -1461,7 +1461,142 @@ export const wordList = [
     },
     {
         word: 'goal',
-        translation: '',
+        translation: 'ціль',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'fulfit',
+        translation: 'виконувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'fail to',
+        translation: 'провалити',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'handle',
+        translation: 'впоратись з',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'appropriate',
+        translation: 'відповідний / підходящий',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'teamwork',
+        translation: 'командна робота',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'overcome',
+        translation: 'долати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'advice',
+        translation: 'порада',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'advise',
+        translation: 'радити',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'particular',
+        translation: 'конкретний',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'on the news',
+        translation: 'в новинах',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'presenter',
+        translation: 'ведучий',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'journalist',
+        translation: 'журналіст',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'article',
+        translation: 'стаття',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'broadcast',
+        translation: 'транслювати / трансляція',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'cover',
+        translation: 'обкладинка / висвітлювати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'negotiate',
+        translation: 'вести перемови',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'ceasefire',
+        translation: 'тимчасове припинення вогню',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'send in troops',
+        translation: 'відправляти війська',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'with draw troops',
+        translation: 'вивести війська',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'murder',
+        translation: 'вбивство / вбивати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'put sb in prison',
+        translation: 'посадити когось у вʼязницю',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'be quilty of',
+        translation: 'бути винним',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'be innocent of',
+        translation: 'бути невинним',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'murderer',
+        translation: 'вбивця',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'kidnap',
+        translation: 'викрадати людей',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'battle',
+        translation: 'битва',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'anyway',
+        translation: 'незважаючи на',
         lvl: 'Upper-Intermediate'
     }
 ]
