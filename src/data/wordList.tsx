@@ -1598,5 +1598,285 @@ export const wordList = [
         word: 'anyway',
         translation: 'незважаючи на',
         lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'declared',
+        translation: 'проголошувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'sue sb',
+        translation: 'подавати в суд',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'weather forecast',
+        translation: 'прогноз погоди',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'a judge',
+        translation: 'суддя',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'casualty of',
+        translation: 'постраждалий',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'victim of',
+        translation: 'жертва',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'defeat sb',
+        translation: 'перемогти',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'suicide bomber',
+        translation: 'терорист-смертник',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'explode',
+        translation: 'вибухати / підривати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'refugee',
+        translation: 'біженець',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'guerilla',
+        translation: 'партизан',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'steal',
+        translation: 'красти',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'rob',
+        translation: 'грабувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'corruption',
+        translation: 'корупція',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'find out',
+        translation: "з'ясовувати / дізнаватись",
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'watch out for',
+        translation: 'остерігатись',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'turn out to be',
+        translation: 'виявитись кимось',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'drop off',
+        translation: 'швидко заснути',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'get on well with',
+        translation: 'ладнати з / мати успіх з',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'stay away from',
+        translation: 'триматись подалі',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'get on',
+        translation: 'заходити в транспорт',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'get off',
+        translation: 'виходити з транспорту',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'turn up at',
+        translation: "зʼявлятись несподівано в",
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'think over',
+        translation: 'обмірковувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'see of',
+        translation: 'проводжати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'run away',
+        translation: 'втікати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'get out of',
+        translation: 'забиратись',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'check out',
+        translation: 'зацінити / перевірити',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'turn down',
+        translation: 'відмовитись / відхиляти',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'get over',
+        translation: 'оговтатись після / від',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'put off',
+        translation: 'відкладати по часу',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'put out',
+        translation: 'гасити вогонь/сигарету/свічку',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'run out',
+        translation: 'закінчуватись',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'tell of',
+        translation: 'сварити',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'stand up',
+        translation: 'підвести / продинамити / проморозитись',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'teller',
+        translation: 'касир в банку',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'bank statement',
+        translation: 'банківська виписка',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'issue',
+        translation: 'видавати документ',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'lend',
+        translation: 'давати в борг',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'borrow',
+        translation: 'брати в борг',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'pay money into',
+        translation: 'класти гроші на',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'transfer',
+        translation: 'переказувати / перераховувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'take out a loan',
+        translation: 'взяти кредит',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'pay off',
+        translation: 'виплачувати повністю',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'mortgage',
+        translation: 'іпотека',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'open a bank account',
+        translation: 'відкрити рахунок в банку',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'increase',
+        translation: 'збільшувати / зростати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'decrease',
+        translation: 'зменшувати / зменшуватись',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'interest',
+        translation: 'відсоток / процентна ставка',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'exchange rate',
+        translation: 'курс обміну валют',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'balance',
+        translation: 'баланс / залишок на рахунку',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'withdraw',
+        translation: 'знімати гроші',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'pay in cash',
+        translation: 'платити готівкою',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'pay by card',
+        translation: 'платити картою',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'meet demands',
+        translation: 'відповідати вимогам',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'bulletproof',
+        translation: 'куленепробивний',
+        lvl: 'Upper-Intermediate'
     }
 ]

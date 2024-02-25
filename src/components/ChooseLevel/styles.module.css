@@ -1,0 +1,18 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.subtitle{
+    font-weight: 600;
+}
+
+.wrapper>div> label{
+    cursor: pointer;
+}
+.wrapper>div>input{
+    cursor: pointer;
+    margin-right: 10px;
+}
