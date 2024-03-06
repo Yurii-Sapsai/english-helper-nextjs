@@ -1570,7 +1570,7 @@ export const wordList = [
         lvl: 'Upper-Intermediate'
     },
     {
-        word: 'be quilty of',
+        word: 'be guilty of',
         translation: 'бути винним',
         lvl: 'Upper-Intermediate'
     },
@@ -1877,6 +1877,271 @@ export const wordList = [
     {
         word: 'bulletproof',
         translation: 'куленепробивний',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'appointment',
+        translation: 'запланована зустріч',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'temporary',
+        translation: 'тимчасовий',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'poorly paid',
+        translation: 'низько оплачувана',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'well paid',
+        translation: 'гарно оплачувана',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'hire',
+        translation: 'наймати на роботу',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'quit',
+        translation: 'звільнятись з',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'be promoted',
+        translation: 'бути підвищеним',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'be demoted',
+        translation: 'бути пониженим',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'promotion',
+        translation: 'підвищення',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'demotion',
+        translation: 'пониження',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'wage',
+        translation: 'плата / оплата',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'salary',
+        translation: 'зарплата',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'job-hunt',
+        translation: 'шукати роботу',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'pay rise',
+        translation: 'підвищення зарплати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'be in charge of',
+        translation: 'бути відповідальним за',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'accomplishment',
+        translation: 'успішне завершення',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'request',
+        translation: 'запит',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'satisfy',
+        translation: 'задовільняти',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'devide',
+        translation: 'ділити / розділяти',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'payment',
+        translation: 'оплата',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'Doesnt metter',
+        translation: 'Не має значення',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'health insurance',
+        translation: 'медичне страхування',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'self-employed',
+        translation: 'самозайнятий',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'work freelance',
+        translation: 'працювати фріланс / позаштатно',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'be on sick leave',
+        translation: 'бути на лікарняному',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'be on maternity leave',
+        translation: 'бути у дикреті',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'work shifts',
+        translation: 'працювати змінами',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'sack sb for',
+        translation: 'звільняти',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'be made redundant',
+        translation: 'бути скороченим',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'earn a living',
+        translation: 'заробляти на життя',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'seek',
+        translation: 'шукати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'punctual',
+        translation: 'пунктуальний',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'fulfit a duty',
+        translation: "виконувати обов'язки",
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'environment',
+        translation: 'оточення / середовище',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'include',
+        translation: 'включати / включати в себе',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'earn',
+        translation: 'заробляти',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'behavior',
+        translation: 'поведінка',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'confirm',
+        translation: 'підтверджувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'appreciate',
+        translation: 'цінувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'unbearable',
+        translation: 'нестерпний',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'be passionate',
+        translation: 'захоплюватись',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'brag',
+        translation: 'хизуватися',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'come to terms with',
+        translation: 'змиритися з',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'permission',
+        translation: 'дозвіл',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'count on',
+        translation: 'розраховувати на',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'stand / bear',
+        translation: 'терпіти',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'figure out',
+        translation: 'розбиратись з / розуміти',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'have an affair',
+        translation: 'мати інтрижку / роман',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'maintain',
+        translation: 'підтримувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'threaten',
+        translation: 'погрожувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'encourage',
+        translation: 'заохочувати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'inspire',
+        translation: 'надихати',
+        lvl: 'Upper-Intermediate'
+    },
+    {
+        word: 'apologize',
+        translation: 'вибачатись',
         lvl: 'Upper-Intermediate'
     }
 ]
